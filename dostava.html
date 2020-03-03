@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="sr">
+	<head>
+		<title> Slatko slana kujnica-dostava </title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" href="img/logo.png"/>
+		<meta name="keywords" content="dostava, kuvana, jela, hrana, porucite"/>
+		<meta name="description" content="Nudimo vam uslugu dostave hrane. Poručite i u najkraćem roku uživaćete u ukusnoj hrani."/>
+	</head>
+	<body>
+	
+	
+		<!--HEADER-->
+		<div class="traka" id="headerTraka">
+			<div class="okvir">
+				<div id="header">
+					<ul id="header1">
+						<li><a href="index.html" > početna</a></li>
+						<li><a href="meni.html">meni</a></li>
+						<li><a href="jelovnik.html">jelovnik</a></li>
+						<li><a href="dostava.html" id="cetvrti">dostava</a></li>
+						<li><a href="o-autoru.html">o autoru</a></li>
+					</ul>
+					
+					<div id="logo">
+					<!--<img src="img/logo1.jpg" alt="Logo"/>-->
+				</div>
+				<div class="cleaner"></div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--SREDINA-->
+		
+		
+		<div id="sredinaDostava"></div>
+		
+			<form method="get" action="1.php">
+				<table>
+					<tr>
+						<td colspan="2" id="porucite">Poručite svoja omiljena jela</td>
+					</tr>
+					<tr>
+						<td colspan="2"> <input type="text" name="name" id="imePrezime" placeholder="Ime i prezime"/> </td>
+					</tr>
+					<tr>
+						<td colspan="2"> <input type="text" name="adress" id="adresa" placeholder="Adresa"/> </td>
+					</tr>
+					<tr> <td colspan="2"> <input type="tel" name="phone" id="telefon" placeholder="Broj telefona"/> </td> </tr>
+					<tr>
+						<td> 
+							<select name="meals" id="kuvana-jela">
+								<option>Kuvana jela</option>
+								<option  value="sarma">Sarma</option>
+								<option value="punjena-paprika">Punjena paprika</option>
+								<option value="gulaš">Gulaš</option>
+								<option value="grašak">Grašak</option>
+								<option value="ćufte">Ćufte</option>
+								<option value="pilav">Pilav</option>
+								<option value="krompir-paprikaš">Krompir paprikaš</option>
+								<option value="pasulj">Pasulj</option>
+								<option value="musaka">Musaka</option>
+							</select>
+						</td>
+						<td> 
+							<select name="soup" id="čorbe">
+								<option>Supe i čorbe</option>
+								<option value="pilećas">Pileća supa</option>
+								<option value="goveđas">Goveđa supa</option>
+								<option value="telećač">Teleća čorba</option>
+								<option value="ribljač">Riblja ćorba</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<select name="meat" id="MESO">
+								<option>Meso</option>
+								<option value="pohšnicle">Pohovane šnicle</option>
+								<option value="Faššnicle">Faširane šnicle</option>
+								<option value="pilusus">Piletina u susamu</option>
+								<option value="pečp">Pečena piletina</option>
+								<option value="riba">Riba</option>
+							</select>
+						</td>
+						<td> 
+							<select name="riba" id="riba">
+								<option>Riba</option>
+								<option value="pastr">Pastrmka</option>
+								<option value="filet">Filet </option>
+								<option value="oslic">Oslić</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td> 
+							<select name="salad" id="salate">
+								<option>Salate</option>
+								<option value="sez">Sezonska slata</option>
+								<option value="kromp">Krompir salata</option>
+								<option value="cvekla">Cvekla</option>
+								<option value="mešana">Mešana salata</option>
+							</select>
+						</td>
+						<td> 
+							<select name="sos" id="pr">
+								<option>Prilozi</option>
+								<option value="pire">Krompir pire</option>
+								<option value="pekarski">Pekarski krompir</option>
+								<option value="pomf">Pomfrit</option>
+								<option value="testenina">Testenina</option>
+								<option value="riža">Riža</option>
+								<option value="grilpovr">Grilovano povrće</option>
+							</select>
+						</td>
+					</tr>
+						
+						<tr>
+							<td colspan="2"> 
+								<select name="candy" id="slatkisi">
+									<option>Poslastice</option>
+									<option value="princes"> Princes krofne</option>
+									<option value="šam">Šam-rolne</option>
+									<option value="reform">Reform torta</option>
+									<option value="gabon">Gabon torta</option>
+									<option value="sladoled">Sladoled torta</option>
+									<option value="voćna">Voćna torta</option>
+								</select>
+							</td>
+						</tr>
+					<tr>
+						<td rowspan="2" colspan="2"> <input type="button" name="dugme" id="poruic" value="Poruči"/> </td>
+					</tr>
+				</table>
+			</form>
+		
+		
+		<!--FOOTER-->
+		
+		<div class="traka">
+			<div class="okvir">
+				<div id="footer1">
+					<ul id="footer"> 
+						<li><a href="https://www.instagram.com/slatko_slana_kujnica/"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+						<li><a href="#"><span class="fa fa-envelope-o" aria-hidden="true"></span></a></li>
+					</ul>
+					
+					<div id="kontakt">
+						<h3>Kontakt</h3>
+						<ul>
+							<li>
+								<h4>Adresa:</h4>
+								<p> Prijepoljska 3, 11000 Beograd, Srbija</p></li>
+							<li>
+								<h4>Radno vreme:</h4>
+								<p>Ponedeljak-Petak: 10:00-17:00</p> 
+							</li>
+							<li>
+								<h4>Kontakt telefon: </h4>
+								<p>061/23-45-67</p>
+							</li>
+							<li>
+								<h4>Mail</h4>
+								<p>anastasija.jokovic.104.19@ict.edu.rs</p>
+							</li>
+						</ul>
+					</div>
+					
+					<div id="copy">
+						<a href="sitemap.xml" id="smap" target="blank">SITEMAP</a>
+						<a href="rss.xml" id="rss" target="blank">rss</a>
+						<p>copyright &copy; Anastasija Joković</p>
+					</div>
+					<div class="cleaner"></div>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>	

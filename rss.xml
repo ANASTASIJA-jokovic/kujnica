@@ -1,0 +1,26 @@
+
+<rss version="2.0">
+	<channel>
+		<title>Slatko slana kujnica</title>
+		<link>http://aaa/index.html</link>
+		<description>
+			Nudimo vam širok asortiman tadicionalnih srpskih jela!
+		</description>
+		
+		<item>
+		<title>Jelovnik</title>
+		<link>http://aaa/jelovnik.html</link>
+		<description>
+			Uvek možete pratiti koja jela se nalaze na našem meniju.
+		</description>
+		</item>
+		
+		<item>
+		<title>Dostava</title>
+		<link>http://aaa/dostava.html</link>
+		<description>
+			Postoji i mogućnost dostave hrane. Sve što treba jeste da u ovoj sekciji ostavite vaše podatke. 
+		</description>
+		</item>
+	</channel>
+</rss>

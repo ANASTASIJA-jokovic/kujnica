@@ -1,0 +1,587 @@
+*{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	font-family: special-elite;
+}
+@font-face {
+	src: url(font.ttf);
+	font-family: special-elite;
+}
+body{
+	text-transform: uppercase;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.traka{
+	background-color: #090a0a;
+	width: 100%;
+	text-align: right;
+}
+.okvir {
+	margin:0px auto;
+	width: 80%;
+	padding: 10px 0px;
+	text-align: center;
+
+}
+#headerTraka{
+	z-index: 2;
+	position: sticky;
+	top: 0px;
+	background-color: #090a0a;
+	position:absolute;
+	z-index: 1;
+	box-shadow: 10px 5px 20px #4a423f;
+}
+#logo {
+	float: left; 
+}
+
+#header1{
+	float: right;
+	list-style-type: none;
+	color: #ffffff;
+	margin: 10px 0px;
+}
+#hamb {
+	display: none;  
+}
+#header1 li{
+	display: inline;
+	margin-right: 10px;
+	font-size: 15px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #f54b07;
+}
+ #prvi{
+	border-bottom: 2px solid #f54b07;
+}
+ #drugi{
+	border-bottom: 2px solid #f54b07;
+}
+ #treci{
+	border-bottom: 2px solid #f54b07;
+}
+ #cetvrti{
+	border-bottom: 2px solid #f54b07;
+}
+ #peti{
+	border-bottom: 2px solid #f54b07;
+}
+ #sesti{
+	border-bottom:  2px solid #f54b07;
+}
+.cleaner{
+	clear: both;
+}
+#podHeader {
+	width: 100%;
+	height: 600px;
+	color: #ffffff;
+}
+#body1 {
+	background-image: url(../img/pozadina2.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+h1, h2. h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 90px;
+	margin: 140px 0px 250px 550px;
+	text-align: center;
+	text-shadow: 3px 5px 7px #000000;
+}
+#main {
+	background: #ffffff;
+	margin-bottom: 200px;
+	height: 550px;
+}
+#main h2 {
+	width: 200px;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 400px;
+	border-bottom: 4px solid #f54b07;
+}
+#main p {
+	font-size: 30px;
+	text-transform: none;
+	line-height: 40px;
+}
+#footer {
+	list-style-type: none;
+	color: #ffffff;
+	width: 200px;
+	float: left;
+	margin-top: 150px;
+	
+} 
+#footer li {
+		display: inline; 
+		margin-right: 10px;
+		font-size: 30px;
+}
+#copy {
+	color: #ffffff;
+	text-transform: lowercase;
+	margin-top: 8px;
+	width: 325px;
+	float: right;
+	margin-top: 150px;
+}
+#copy p{
+	margin-top: 25px;
+}
+#kontakt {
+	float: left;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+#kontakt h3 {
+	color: #f54b07;
+	margin-bottom: 30px;
+}
+#kontakt ul li h4{
+	color: #f54b07;
+	margin-bottom: 10px;
+}
+#kontakt ul li p {
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+#copy a{
+	text-transform: uppercase;
+}
+#smap {
+	margin-right: 20px;
+}
+
+
+
+
+
+
+/*MENI*/
+
+#sredina {
+	width: 100%;
+	
+}
+
+
+#deo1 #deo2 #deo3 {
+	margin: px 0px;
+	width: 80%; 
+}
+ 
+
+
+
+
+#levo1{
+	float: left;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 100px;
+	background-color: #f0f1f2;
+}
+
+#slikalevo1 {
+	float: right;
+	width: 240;
+	height: 220;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#textlevo1 {
+	float: left;
+	width: 240px;
+	height: 220px;
+	margin-left: 25px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#desno1 {
+	float: right;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 100px;
+	background-color: #f0f1f2;
+}
+#slikadesno1 {
+	float: left;
+	width: 240;
+	height: 220;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#textdesno1 {
+	float: right;
+	width: 240px;
+	height: 220px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: 30px;
+	
+}
+
+
+#levo2 {
+	float: left;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #f0f1f2;
+}
+
+#slikalevo2 {
+	float: right;
+	width: 240;
+	height: 220;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#textlevo2 {
+	float: left;
+	width: 240px;
+	height: 220px;
+	margin-left: 25px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+#desno2 {
+	float: right;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #f0f1f2;
+}
+
+#slikadesno2 {
+	float: left;
+	width: 240;
+	height: 220;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#textdesno2 {
+	float: right;
+	width: 240px;
+	height: 220px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+
+#levo3 {
+	float: left;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #f0f1f2;
+}
+
+#slikalevo3 {
+	float: right;
+	width: 240;
+	height: 220;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#textlevo3 {
+	float: left;
+	width: 240px;
+	height: 220px;
+	margin-left: 25px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+#desno3 {
+	float: right;
+	width: 530px;
+	box-shadow: 2px 2px 10px #96442a;
+	border-radius: 20px;
+	margin-top: 20px;
+	background-color: #f0f1f2;
+}
+#slikadesno3 {
+	float: left;
+	width: 240;
+	height: 220;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+#textdesno3 {
+	float: right;
+	width: 240px;
+	height: 220px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+
+#textlevo1 a{
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#textlevo1 a:hover {
+	color: #000000;
+}
+#textdesno1 a {
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#textdesno1 a:hover {
+	color: #000000;
+}
+#textlevo2 a {
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#textlevo2 a:hover {
+	color: #000000;
+}
+#textdesno2 a {
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+.slika {
+	border-radius: 20px;
+	margin-top: 15px;
+	
+}
+#textdesno2 a:hover {
+	color: #000000;
+}
+#textlevo3 a {
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#textlevo3 a:hover {
+	color: #000000;
+}
+#textdesno3 a {
+	color: #f54b07;
+	margin-top: 50px;
+	display: block;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+#textdesno3 a:hover {
+	color: #000000;
+}
+.naslov {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+
+
+
+/*JELOVNIK*/
+#meniDeo1 {
+	margin-top: 100px;
+	float: left;
+	width: 45%;
+	margin-bottom: 50px;
+	
+}
+#meniDeo1 p {
+	color: #f54b07;
+	border-bottom: 1px double #c2c2c2;
+	margin-bottom: 30px;
+	font-size: 30px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+#meniDeo1 ul{
+	list-style-type: none;
+}
+#meniDeo1 ul li {
+	text-align: left;
+	background-image: radial-gradient(circle closest-side,#b0b0b0 80%,#fff 10%);
+	background-size: 4px 2px !important;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+	line-height: 30px;
+
+}
+
+#meniDeo2 {
+	margin-top: 100px;
+	float: right;
+	width: 45%;
+}
+#meniDeo2 p{
+	color: #f54b07;
+	border-bottom: 1px double #c2c2c2;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#meniDeo2 ul{
+	list-style-type: none;
+}
+#meniDeo2 ul li {
+	text-align: left;
+	background-image: radial-gradient(circle closest-side,#b0b0b0 80%,#fff 10%);
+	background-size: 4px 2px !important;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+	line-height: 30px;
+}
+.li {
+	width: 486px;
+}
+.ime {
+	width: 200px;
+	float: left;
+}
+.cena {
+	width: 75px;
+	float: right;
+}
+/*O AUTOTU*/
+
+#o-autoru {
+	width: 100%;
+	margin-top: 100px;
+	height: 500px;
+}
+#autor {
+	float: left;
+	margin-right: 70px;
+	width: 300px;
+	margin-left: 150px;
+}
+#autor img {
+	border-radius: 20px;
+}
+#bio {
+	width: 500px;
+	float: left;
+	margin-top: 125px;
+}
+#bio h1 {
+	font-size: 30px;
+	margin: 0px 0px;
+	margin-bottom: 20px;
+}
+#bio p {
+	line-height: 30x;
+}
+
+/*DOSTAVA*/
+
+
+
+#sredinaDostava {
+	background-image: url("../img/dostava.jpg");
+	filter: blur(3px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+ table {
+	margin-top: 100px;
+	width: 500px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 15px #000000;
+	position: absolute;
+	top: 25px;
+	left: 200px;
+	background: rgba(89, 89, 89, 0.8);
+}
+
+ table td {
+	padding: 5px 0px;
+	text-align: center;
+}
+ table tr {
+	height: 50px;
+}
+#porucite {
+	font-size: 50px;
+	margin: 20px 0px;
+	border-bottom: 1px solid #f54b07;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+#imePrezime {
+	width: 300px;
+}
+#adresa {
+	width: 300px;
+}
+#telefon {
+	width: 300px;
+} 
+input[type=text] {
+	height: 50px;
+	border-radius: 15px;
+}
+input[type=tel] {
+	height: 50px;
+	border-radius: 15px;
+}
+select {
+	height: 40px;
+	width: 150px;
+	border-radius: 15px;
+}
+input[type=button] {
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #c2c2c2;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #f54b07;
+}
+#bio p{
+	line-height: 30px;
+}
